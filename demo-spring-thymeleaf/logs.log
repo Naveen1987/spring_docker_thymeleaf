@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo-spring-thymeleaf 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ demo-spring-thymeleaf ---
+[INFO] Deleting D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demo-spring-thymeleaf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demo-spring-thymeleaf ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes
+[WARNING] /D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/src/main/java/com/example/demo/DemoSpringThymeleafApplication.java: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\src\main\java\com\example\demo\DemoSpringThymeleafApplication.java uses unchecked or unsafe operations.
+[WARNING] /D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/src/main/java/com/example/demo/DemoSpringThymeleafApplication.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demo-spring-thymeleaf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demo-spring-thymeleaf ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ demo-spring-thymeleaf ---
+[INFO] Surefire report directory: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+17:21:03.289 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:03.321 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:03.386 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:03.435 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.DemoSpringThymeleafApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:03.552 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoSpringThymeleafApplicationTests], using SpringBootContextLoader
+17:21:03.557 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: class path resource [com/example/demo/DemoSpringThymeleafApplicationTests-context.xml] does not exist
+17:21:03.557 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: class path resource [com/example/demo/DemoSpringThymeleafApplicationTestsContext.groovy] does not exist
+17:21:03.558 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:03.558 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: DemoSpringThymeleafApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:03.851 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:03.909 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:03.909 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:03.909 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:03.954 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/demo/] to resources [URL [file:/D:/Kfas%20Naveen%20Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/target/test-classes/com/example/demo/], URL [file:/D:/Kfas%20Naveen%20Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/target/classes/com/example/demo/]]
+17:21:03.955 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\test-classes\com\example\demo]
+17:21:03.956 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\test-classes\com\example\demo] for files matching pattern [D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/target/test-classes/com/example/demo/*.class]
+17:21:03.959 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo]
+17:21:03.959 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo] for files matching pattern [D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/demo-spring-thymeleaf/target/classes/com/example/demo/*.class]
+17:21:03.960 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/demo/*.class] to resources [file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\test-classes\com\example\demo\DemoSpringThymeleafApplicationTests.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\DemoSpringThymeleafApplication.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\EmpDao.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\EmpDaoCustom.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\EmpDaoImpl.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\Employee.class]]
+17:21:04.294 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\classes\com\example\demo\DemoSpringThymeleafApplication.class]
+17:21:04.304 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoSpringThymeleafApplication for test class com.example.demo.DemoSpringThymeleafApplicationTests
+17:21:04.325 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.DemoSpringThymeleafApplicationTests]: using defaults.
+17:21:04.331 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:04.480 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78a2da20, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@dd3b207, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@551bdc27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58fdd99, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b1274d2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7bc1a03d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70b0b186, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ba8d91c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7364985f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5d20e46, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@709ba3fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3d36e4cd]
+17:21:04.483 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.484 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DemoSpringThymeleafApplicationTests]
+Running com.example.demo.DemoSpringThymeleafApplicationTests
+17:21:04.498 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.499 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:04.499 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:04.499 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.DemoSpringThymeleafApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:04.500 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoSpringThymeleafApplicationTests], using SpringBootContextLoader
+17:21:04.500 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: class path resource [com/example/demo/DemoSpringThymeleafApplicationTests-context.xml] does not exist
+17:21:04.501 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: class path resource [com/example/demo/DemoSpringThymeleafApplicationTestsContext.groovy] does not exist
+17:21:04.501 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:04.501 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoSpringThymeleafApplicationTests]: DemoSpringThymeleafApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:04.506 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.506 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:04.506 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:04.507 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:04.507 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoSpringThymeleafApplication for test class com.example.demo.DemoSpringThymeleafApplicationTests
+17:21:04.510 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.DemoSpringThymeleafApplicationTests]: using defaults.
+17:21:04.513 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:04.517 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@123f1134, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d68ef40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b0abc94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c072cb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f1c7bf6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25b485ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b546384, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d740a0f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@214b199c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20d3d15a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2893de87, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55ca8de8]
+17:21:04.518 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.518 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.550 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.555 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.562 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@17c1bced testClass = DemoSpringThymeleafApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2d9d4f9d testClass = DemoSpringThymeleafApplicationTests, locations = '{}', classes = '{class com.example.demo.DemoSpringThymeleafApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@7d907bac, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6325a3ee, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2b9627bc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@72b6cbcc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+17:21:04.563 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.563 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DemoSpringThymeleafApplicationTests]
+17:21:04.936 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:04.936 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:04.936 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:04.937 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+17:21:04.955 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+17:21:04.956 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2017-08-23 17:21:06.926  INFO 9868 --- [           main] .e.d.DemoSpringThymeleafApplicationTests : Starting DemoSpringThymeleafApplicationTests on admin with PID 9868 (started by Administrator in D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf)
+2017-08-23 17:21:06.927  INFO 9868 --- [           main] .e.d.DemoSpringThymeleafApplicationTests : No active profile set, falling back to default profiles: default
+2017-08-23 17:21:08.621  INFO 9868 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Wed Aug 23 17:21:08 IST 2017]; root of context hierarchy
+2017-08-23 17:21:19.123  INFO 9868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-08-23 17:21:19.248  INFO 9868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-08-23 17:21:19.864  INFO 9868 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-08-23 17:21:19.867  INFO 9868 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-08-23 17:21:19.879  INFO 9868 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-08-23 17:21:20.138  INFO 9868 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-23 17:21:20.619  INFO 9868 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-23 17:21:22.982  INFO 9868 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+Hibernate: drop table if exists employee
+Hibernate: create table employee (eid integer not null auto_increment, ename varchar(255), esal integer not null, primary key (eid))
+2017-08-23 17:21:23.057  INFO 9868 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-08-23 17:21:23.147  INFO 9868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-08-23 17:21:25.666  INFO 9868 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Wed Aug 23 17:21:08 IST 2017]; root of context hierarchy
+2017-08-23 17:21:25.875  INFO 9868 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.DemoSpringThymeleafApplication.getIndex(org.springframework.web.servlet.ModelAndView)
+2017-08-23 17:21:25.879  INFO 9868 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-23 17:21:25.880  INFO 9868 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-23 17:21:25.956  INFO 9868 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-23 17:21:25.956  INFO 9868 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-23 17:21:26.045  INFO 9868 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Hibernate: insert into employee (ename, esal) values (?, ?)
+Hibernate: insert into employee (ename, esal) values (?, ?)
+Hibernate: insert into employee (ename, esal) values (?, ?)
+2017-08-23 17:21:28.134  INFO 9868 --- [           main] .e.d.DemoSpringThymeleafApplicationTests : Started DemoSpringThymeleafApplicationTests in 23.092 seconds (JVM running for 25.729)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.927 sec - in com.example.demo.DemoSpringThymeleafApplicationTests
+2017-08-23 17:21:28.461  INFO 9868 --- [       Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@70cf32e3: startup date [Wed Aug 23 17:21:08 IST 2017]; root of context hierarchy
+2017-08-23 17:21:28.464  INFO 9868 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ demo-spring-thymeleaf ---
+[INFO] Building jar: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\demo-spring-thymeleaf-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.6.RELEASE:repackage (default) @ demo-spring-thymeleaf ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ demo-spring-thymeleaf ---
+[INFO] Installing D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\target\demo-spring-thymeleaf-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\example\demo-spring-thymeleaf\0.0.1-SNAPSHOT\demo-spring-thymeleaf-0.0.1-SNAPSHOT.jar
+[INFO] Installing D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\demo-spring-thymeleaf\pom.xml to C:\Users\Administrator\.m2\repository\com\example\demo-spring-thymeleaf\0.0.1-SNAPSHOT\demo-spring-thymeleaf-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:02 min
+[INFO] Finished at: 2017-08-23T17:21:42+05:30
+[INFO] Final Memory: 36M/209M
+[INFO] ------------------------------------------------------------------------

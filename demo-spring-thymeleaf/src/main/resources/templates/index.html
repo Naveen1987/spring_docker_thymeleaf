@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+<link rel="stylesheet" href="/bootstrap-4/css/bootstrap.min.css" th:href="@{/bootstrap-4/css/bootstrap.min.css}" />
+<script src="/jQuery/jquery-3.2.1.min.js" th:src="@{/jQuery/jquery-3.2.1.min.js}"></script>
+<script src="/jQuery/bootbox.min.js" th:src="@{/jQuery/bootbox.min.js}"></script>
+<script src="/bootstrap-4/js/tether.min.js" th:src="@{/bootstrap-4/js/tether.min.js}"></script>
+<script src="/bootstrap-4/js/bootstrap.js" th:src="@{/bootstrap-4/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<!-- <p th:text="${msg}"/>
+<th:block th:each="emp :${msg}">
+<span th:text="${emp.eid}"></span>
+</th:block> -->
+<table class="table">
+<thead>
+<tr>
+<th>EID</th>
+<th>ENAME</th>
+<th>ESAL</th>
+<th>ACTION</th>
+</tr>
+</thead>
+<tbody>
+<tr th:each="emp:${msg}">
+<td>
+<span th:text="${emp.eid}"></span>
+</td>
+<td>
+<span th:text="${emp.ename}"></span>
+</td>
+<td>
+<span th:text="${emp.esal}"></span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<a href="/insert">Go Insert</a>
+</body>
+</html>

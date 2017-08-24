@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+<link rel="stylesheet" href="/bootstrap-4/css/bootstrap.min.css" th:href="@{/bootstrap-4/css/bootstrap.min.css}" />
+
+<script src="/jQuery/jquery-3.2.1.min.js" th:src="@{/jQuery/jquery-3.2.1.min.js}"></script>
+<script src="/jQuery/bootbox.min.js" th:src="@{/jQuery/bootbox.min.js}"></script>
+<script src="/jQuery/bootbox.min.js" th:src="@{/jQuery/jquery-ui.min.js}"></script>
+<script src="/bootstrap-4/js/tether.min.js" th:src="@{/bootstrap-4/js/tether.min.js}"></script>
+<script src="/bootstrap-4/js/bootstrap.js" th:src="@{/bootstrap-4/js/bootstrap.min.js}"></script>
+<script src="/jQuery/jquery-3.2.1.min.js" th:src="@{/jQuery/jquery.validate.min.js}"></script>
+<!-- <style>
+#parent {
+   display: table;
+   width: 100%;
+}
+#form_login {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+</style> -->
+</head>
+<body>
+<div class="container-fluid-1280">
+<div class="row">
+<div class="col-md-12">
+<div align="center">
+<br/>
+<span  th:text="${msg}"></span>
+<form id="fn_1" action="" method="POST">
+<table>
+<tr><td>Name</td><td><input class="form-control" name="ename" required="required"/></td></tr>
+<tr><td>Salary</td><td><input class="form-control" name="esal" required="required"/></td></tr>
+<tr><td colspan="3">
+<table width="100%"><tr><td><input class="form-control" style="background-color:#f0ad4e;border-color:#f0ad4e;color:white"  type="reset"/></td><td><input class="form-control btn btn-danger" type="submit"/></td></tr></table>
+</td></tr>
+</table>
+</form>
+<br/>
+<a href="/">Go back</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script>
+$( "#fn_1" ).validate({
+	  rules: {
+		  esal: {
+	         number: true
+	    }
+	  },
+	  messages:{
+		  esal:{
+			  number:'Please Enter valid number decimal also Accepted'
+		  }
+	  }
+	});
+</script>

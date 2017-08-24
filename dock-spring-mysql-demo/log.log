@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dock-spring-mysql-demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ dock-spring-mysql-demo ---
+[INFO] Deleting D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dock-spring-mysql-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ dock-spring-mysql-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes
+[WARNING] /D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/src/main/java/com/example/demo/DockSpringMysqlDemoApplication.java: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\src\main\java\com\example\demo\DockSpringMysqlDemoApplication.java uses unchecked or unsafe operations.
+[WARNING] /D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/src/main/java/com/example/demo/DockSpringMysqlDemoApplication.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dock-spring-mysql-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ dock-spring-mysql-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ dock-spring-mysql-demo ---
+[INFO] Surefire report directory: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+14:48:03.269 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.280 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:48:03.293 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:48:03.316 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.DockSpringMysqlDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:48:03.335 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DockSpringMysqlDemoApplicationTests], using SpringBootContextLoader
+14:48:03.340 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: class path resource [com/example/demo/DockSpringMysqlDemoApplicationTests-context.xml] does not exist
+14:48:03.340 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: class path resource [com/example/demo/DockSpringMysqlDemoApplicationTestsContext.groovy] does not exist
+14:48:03.341 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:48:03.342 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: DockSpringMysqlDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:48:03.397 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.411 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:48:03.411 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:48:03.411 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:48:03.425 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/example/demo/] to resources [URL [file:/D:/Kfas%20Naveen%20Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/target/test-classes/com/example/demo/], URL [file:/D:/Kfas%20Naveen%20Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/target/classes/com/example/demo/]]
+14:48:03.426 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\test-classes\com\example\demo]
+14:48:03.426 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\test-classes\com\example\demo] for files matching pattern [D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/target/test-classes/com/example/demo/*.class]
+14:48:03.430 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo]
+14:48:03.431 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo] for files matching pattern [D:/Kfas Naveen Data/SpringBoot/Project-Demos/SpringBootDocker/dock-spring-mysql-demo/target/classes/com/example/demo/*.class]
+14:48:03.432 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/example/demo/*.class] to resources [file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\test-classes\com\example\demo\DockSpringMysqlDemoApplicationTests.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\DockSpringMysqlDemoApplication.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\Employee.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\EmployeeDao.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\EmployeeDaoCustom.class], file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\EmployeeDaoImpl.class]]
+14:48:03.516 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\classes\com\example\demo\DockSpringMysqlDemoApplication.class]
+14:48:03.534 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DockSpringMysqlDemoApplication for test class com.example.demo.DockSpringMysqlDemoApplicationTests
+14:48:03.540 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.DockSpringMysqlDemoApplicationTests]: using defaults.
+14:48:03.548 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:48:03.575 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@78a2da20, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@dd3b207, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@551bdc27, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58fdd99, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b1274d2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7bc1a03d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70b0b186, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ba8d91c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7364985f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5d20e46, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@709ba3fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3d36e4cd]
+14:48:03.578 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.578 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+Running com.example.demo.DockSpringMysqlDemoApplicationTests
+14:48:03.580 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.580 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:48:03.581 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:48:03.581 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.DockSpringMysqlDemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:48:03.582 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DockSpringMysqlDemoApplicationTests], using SpringBootContextLoader
+14:48:03.583 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: class path resource [com/example/demo/DockSpringMysqlDemoApplicationTests-context.xml] does not exist
+14:48:03.583 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: class path resource [com/example/demo/DockSpringMysqlDemoApplicationTestsContext.groovy] does not exist
+14:48:03.583 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:48:03.583 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]: DockSpringMysqlDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:48:03.588 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.589 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:48:03.589 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:48:03.589 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:48:03.589 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DockSpringMysqlDemoApplication for test class com.example.demo.DockSpringMysqlDemoApplicationTests
+14:48:03.592 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.DockSpringMysqlDemoApplicationTests]: using defaults.
+14:48:03.595 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:48:03.598 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@123f1134, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d68ef40, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b0abc94, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c072cb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f1c7bf6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25b485ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b546384, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d740a0f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@214b199c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20d3d15a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2893de87, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55ca8de8]
+14:48:03.599 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.599 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.601 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.601 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.610 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@17c1bced testClass = DockSpringMysqlDemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2d9d4f9d testClass = DockSpringMysqlDemoApplicationTests, locations = '{}', classes = '{class com.example.demo.DockSpringMysqlDemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6ddf90b0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5a8e6209, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@369f73a2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@79be0360], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:48:03.611 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.612 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.DockSpringMysqlDemoApplicationTests]
+14:48:03.713 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:48:03.714 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:48:03.714 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:48:03.716 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+14:48:03.727 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+14:48:03.728 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2017-08-23 14:48:04.260  INFO 9056 --- [           main] .e.d.DockSpringMysqlDemoApplicationTests : Starting DockSpringMysqlDemoApplicationTests on admin with PID 9056 (started by Administrator in D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo)
+2017-08-23 14:48:04.261  INFO 9056 --- [           main] .e.d.DockSpringMysqlDemoApplicationTests : No active profile set, falling back to default profiles: default
+2017-08-23 14:48:04.320  INFO 9056 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f01b95f: startup date [Wed Aug 23 14:48:04 IST 2017]; root of context hierarchy
+2017-08-23 14:48:08.116  INFO 9056 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-08-23 14:48:08.134  INFO 9056 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-08-23 14:48:08.223  INFO 9056 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-08-23 14:48:08.225  INFO 9056 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-08-23 14:48:08.226  INFO 9056 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-08-23 14:48:08.267  INFO 9056 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-23 14:48:08.494  INFO 9056 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-23 14:48:08.973  INFO 9056 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+Hibernate: drop table if exists employee
+Hibernate: create table employee (eid integer not null auto_increment, ename varchar(255), esal integer not null, primary key (eid))
+2017-08-23 14:48:09.006  INFO 9056 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-08-23 14:48:09.050  INFO 9056 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-08-23 14:48:10.073  INFO 9056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f01b95f: startup date [Wed Aug 23 14:48:04 IST 2017]; root of context hierarchy
+2017-08-23 14:48:10.223  INFO 9056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.DockSpringMysqlDemoApplication.getIndex(org.springframework.web.servlet.ModelAndView)
+2017-08-23 14:48:10.227  INFO 9056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-23 14:48:10.228  INFO 9056 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-23 14:48:10.274  INFO 9056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-23 14:48:10.274  INFO 9056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-23 14:48:10.351  INFO 9056 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Hibernate: insert into employee (ename, esal) values (?, ?)
+Hibernate: insert into employee (ename, esal) values (?, ?)
+Hibernate: insert into employee (ename, esal) values (?, ?)
+2017-08-23 14:48:10.970  INFO 9056 --- [           main] .e.d.DockSpringMysqlDemoApplicationTests : Started DockSpringMysqlDemoApplicationTests in 7.225 seconds (JVM running for 8.215)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.48 sec - in com.example.demo.DockSpringMysqlDemoApplicationTests
+2017-08-23 14:48:11.090  INFO 9056 --- [       Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6f01b95f: startup date [Wed Aug 23 14:48:04 IST 2017]; root of context hierarchy
+2017-08-23 14:48:11.094  INFO 9056 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ dock-spring-mysql-demo ---
+[INFO] Building jar: D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\dock-spring-mysql-demo-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.6.RELEASE:repackage (default) @ dock-spring-mysql-demo ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ dock-spring-mysql-demo ---
+[INFO] Installing D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\target\dock-spring-mysql-demo-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\example\dock-spring-mysql-demo\0.0.1-SNAPSHOT\dock-spring-mysql-demo-0.0.1-SNAPSHOT.jar
+[INFO] Installing D:\Kfas Naveen Data\SpringBoot\Project-Demos\SpringBootDocker\dock-spring-mysql-demo\pom.xml to C:\Users\Administrator\.m2\repository\com\example\dock-spring-mysql-demo\0.0.1-SNAPSHOT\dock-spring-mysql-demo-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.757 s
+[INFO] Finished at: 2017-08-23T14:48:12+05:30
+[INFO] Final Memory: 35M/319M
+[INFO] ------------------------------------------------------------------------
